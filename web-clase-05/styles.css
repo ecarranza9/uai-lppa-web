@@ -327,8 +327,11 @@ article.article {
 .contact {
   display: flex;
   flex-direction: column;
-  width: 75%;
-}
+  color: #999999;
+  font-size: 17px;
+  padding: 25px;
+  width: 100%;
+} 
 
 @media(min-width: 860px) {
   h2 {
@@ -396,7 +399,6 @@ article.article {
     padding-bottom: 40px;
     flex-direction: row;
     width: 100%;
-    color: #999999;
     font-size: 18px;
   }
   

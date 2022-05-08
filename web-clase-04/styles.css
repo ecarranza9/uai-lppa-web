@@ -351,3 +351,17 @@ article.article {
   height: 30px;
   border-radius: 5px;
 }
+
+.contact {
+  display: flex;
+  padding-bottom: 40px;
+  flex-direction: row;
+  color: #999999;
+  width: 100%;
+  font-size: 18px;
+}
+
+.contact__text {
+  margin-left: 20px;
+  margin-right: 10px;
+}
