@@ -192,7 +192,8 @@ article.article {
 .aside {
   display: flex;
   height: 100%;
-  width: 50%;
+  width: 100%;
+  margin-left: 40px;
   flex-direction: column;
   align-items: center;
 }
