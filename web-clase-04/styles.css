@@ -291,3 +291,52 @@ article.article {
 .recent-post__subtitle {
   line-height: 1.5em;
 }
+
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.newsletter-container-top {
+  padding: 20px;
+  color: #fff;
+  border-color:  #004aad;
+  background-color:  #004aad ;
+}
+
+.text-custom {
+  padding-bottom: 0em;
+  line-height: 1em;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.form {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+}
+
+.form__input {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.form__button {
+  width: 40%;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.search {
+  display: flex;
+  width: 100%;
+}
+
+.search__input {
+  width: 90%;
+  margin-right: 20px;
+  height: 30px;
+  border-radius: 5px;
+}

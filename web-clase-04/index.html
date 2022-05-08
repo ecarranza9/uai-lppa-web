@@ -258,16 +258,23 @@
             </ul>
             <hr class="block-separator" />
             <div class="newsletter-container">
-              <p class="newsletter__text">¿Desea recibir nuestro newsletter?</p>
-              <p class="newsletter__text">(Nunca le enviaremos SPAM)</p>
-              <form action="">
-                <input type="text" />
-                <button>Enviar</button>
-              </form>
+              <div class="newsletter-container-top">
+                <p class="text-custom">¿Desea recibir nuestro newsletter?</p>
+                <p class="text-custom">(Nunca le enviaremos SPAM)</p>
+                <form class="form" action="">
+                  <input
+                    class="form__input"
+                    type="text"
+                    placeholder="Su e-mail"
+                  />
+                  <button class="form__button">Enviar</button>
+                </form>
+              </div>
+              <div class="newsletter-container-bottom"></div>
             </div>
-            <p class="search-text">Buscar entre nuestros 43.172 artículos</p>
+            <p class="text-custom">Buscar entre nuestros 43.172 artículos</p>
             <div class="search">
-              <input type="text" class="search__input" />
+              <input class="search__input" type="text" class="search__input" />
               <button>
                 <img
                   class="icon-search"
